@@ -13,6 +13,7 @@ console.log(name);
 const outPut1 = name.pop();
 const outPut2 = name.pop();
 const outPut3 = name.pop();
+const outPut4 = name.pop();
 
 console.log(name);
-console.log(outPut1, outPut2, outPut3);
+console.log(outPut1, outPut2, outPut3, outPut4);
