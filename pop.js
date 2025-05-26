@@ -15,3 +15,5 @@ name.pop();
 name.pop();
 
 console.log(name);
+name.push('Shamim');
+console.log(name);
