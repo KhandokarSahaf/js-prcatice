@@ -10,10 +10,9 @@ name.push('Rohan');
 
 console.log(name);
 
-name.pop();
-name.pop();
-name.pop();
+const outPut1 = name.pop();
+const outPut2 = name.pop();
+const outPut3 = name.pop();
 
 console.log(name);
-name.push('Shamim');
-console.log(name);
+console.log(outPut1, outPut2, outPut3);
