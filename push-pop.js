@@ -4,4 +4,4 @@ console.log(number);
 number.push(22, 23, 24);
 
 
-console.log(number)
+console.log(number);
