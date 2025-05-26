@@ -9,3 +9,14 @@ if( (salary > 15000 && houseOwner == true) || hasProperty == true ){
 else{
     console.log('ke Tomi baba ?');
 }
+
+var govJob = true;
+const mySalary = 25000;
+const ownHouse = true;
+
+if((govJob === true || ownHouse === true) && mySalary >= 25000){
+    console.log('oi kire modhu modhu sei patro paisi');
+}
+else{
+    console.log('pokira pola akta');
+}
