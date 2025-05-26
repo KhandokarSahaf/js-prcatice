@@ -1,35 +1,36 @@
-// ************************simple ternary***********************//
-// ********** example - 1 *********
-// const ageNum = 22;
+// ******* SIMPLE TERNARY ******* //
 
-// ageNum >= 18
-//   ? console.log("Congratulation You can vote now !!")
-//   : console.log("Sorry you are under age");
+const myAge = 22;
 
-// ******** example - 2 *********
-// let price = 200;
-// const vipMember = true;
+myAge >= 18 ? console.log("You are adult") : console.log("You are underaged");
 
-// if (vipMember === true) {
-//   price = price - (price * 20) / 100;
-// } else {
-//   price = price + (price * 20) / 100;
-// }
-// console.log(price);
+// ******* COMPLEX TERNARY ******* //
 
-// ************ example - 3 **************
-// let price = 200;
-// let vipMember = false;
+let foodPrice = 1000;
+let vipDiscountPercent = 40;
+let casualDiscount = 20;
+let member = !true;
+let vipMember = true;
 
-// price = vipMember == true ? price - (price * 20) / 100 : price + (price * 20) / 100;
-// console.log(price);
+foodPrice =
+  vipMember === true
+    ? foodPrice - (foodPrice * vipDiscountPercent) / 100
+    : (foodPrice =
+        member === true
+          ? foodPrice - (foodPrice * casualDiscount) / 100
+          : foodPrice);
 
-// ************* example -4 ***************//
-// ************** Advance Ternary **************//
-let price = 520;
-const vipMember = true;
+console.log(foodPrice);
 
-// price = vipMember===false ? price>500? price/2 : price=0 : price*2;
-price =
-  vipMember === false ? (price > 500 ? price / 2 : (price = 0)) : price * 2;
-console.log(price);
+// ******* ADVANCE TERNARY ******* //
+
+let ticketPrice = 50;
+const student = true;
+
+ticketPrice =
+  student === !false
+    ? ticketPrice < 60
+      ? ticketPrice - (ticketPrice * 50) / 100 
+      : ticketPrice = ticketPrice - 10 
+    : price; 
+console.log(ticketPrice);
