@@ -17,15 +17,4 @@ if (myFriends.includes("javascript")) {
   console.log("good job tumi selected");
 } else {
   console.log("duro tumi kisui paro nh");
-}
-
-
-let num = 1;
-let sum =0;
-while(num <= 10){
-    console.log(`number : ${num}`);
-    sum = sum+num;
-    console.log(`total sum : ${sum} `);
-    num++;
-
-}
+}       
